@@ -1,0 +1,28 @@
+.main-info-box {
+    width: 255px;
+    height: 110px;
+    background: #eaebee;
+    border: 1px solid #264772;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+    .count-container {
+        font-size: 18px;
+        line-height: 37px;
+        font-weight: 700;
+        position: relative;
+        color: #113a66;
+        :first-child {
+            margin-right: 10px;
+        }
+        .plus {
+            font-size: 18px;
+        }
+    }
+    .text-container {
+        font-size: 18px;
+        color: $color;
+    }
+}

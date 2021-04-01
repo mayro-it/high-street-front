@@ -1,0 +1,96 @@
+.main-header {
+    display: flex;
+    padding: 20px 160px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background: rgba(136, 136, 156, 0.21);
+    height: 90px;
+    .logo-container {
+        max-width: 205px;
+        cursor: pointer;
+    }
+    .main-navbar {
+        color: $color;
+        // margin-right: 100px;
+        span {
+            font-size: 18px;
+            font-weight: 500;
+            margin-right: 50px;
+            cursor: pointer;
+        }
+    }
+}
+// responsive header
+.header-modal {
+    margin: unset !important;
+    width: 375px !important;
+    height: 100vh;
+    top: unset !important;
+
+    .ant-modal-header {
+        border-bottom: unset;
+        .ant-modal-title {
+            width: 100px;
+        }
+    }
+    .anticon .anticon-close .ant-modal-close-icon {
+        width: 25px;
+        height: 25px;
+    }
+    .ant-modal-content {
+        width: 100vw;
+        height: 100vh;
+        .ant-modal-close-x {
+            font-size: 20px;
+            color: #000;
+            padding: 16px 24px;
+            width: unset;
+            height: unset;
+            line-height: 50px;
+        }
+    }
+    .responsive-header {
+        padding-top: 100px;
+        .responsive-navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 17px;
+            color: #264772;
+            span {
+                margin-bottom: 20px;
+            }
+        }
+        .active {
+            color: #1f4d7d;
+            font-weight: 700;
+        }
+    }
+}
+
+.header-menu {
+    display: none;
+}
+@media only screen and (max-width: 415px) {
+    .main-header {
+        padding: 20px;
+
+        .header-menu {
+            display: flex;
+        }
+        .logo-container {
+            width: 80px;
+        }
+        .main-navbar {
+            display: none;
+        }
+    }
+    .header-modal {
+        .ant-modal-centered {
+            text-align: unset !important;
+        }
+    }
+}
