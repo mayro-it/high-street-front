@@ -68,7 +68,7 @@ const config = {
         new HtmlWebpackPlugin({
             template: './index.html',
             googleAnalitic: env === 'production' ? `<script></script>` : '',
-            title: 'Concise Freight'
+            title: 'High Street'
         }),
         new MiniCssExtractPlugin({
             filename: "[name]-[hash].css",
