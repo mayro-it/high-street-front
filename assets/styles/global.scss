@@ -13,15 +13,14 @@ $color: #264772;
     .ant-select {
         font-size: 30px;
         color: $color;
-        width: 110px;
-        border: unset !important;
+        width: 120px;
         .ant-select-selector {
             height: 70px !important;
             align-items: center;
             border: unset !important;
             background-color: unset !important;
             width: 120px;
-            box-shadow:  unset !important;
+            box-shadow: unset !important;
         }
         .ant-select-selection-item {
             color: $color !important;
@@ -49,7 +48,6 @@ $color: #264772;
         width: 70%;
         input {
             border: unset;
-            font-weight: 600;
             font-size: 25px;
             background: unset;
             width: 100%;
@@ -58,36 +56,26 @@ $color: #264772;
     }
 }
 
-.answer-row {
-    color: $color;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    width: 100%;
-    justify-content: center;
-
-    img {
-        width: 25px;
-        margin: 10px;
-    }
-    span {
-        font-size: 20px;
-        font-weight: 700;
-    }
-}
 
 @media only screen and (max-width: 415px) {
     .search-input {
         width: 260px;
         padding: unset;
-        .ant-select{
+        .ant-select {
             font-size: 18px;
-            .ant-select-selector{
+            width: 100px;
+            .ant-select-selector {
                 padding: 0 5px !important;
             }
         }
-        .search-icon-container{
-            img{
+        .input {
+            width: 60%;
+            input {
+                font-size: 18px;
+            }
+        }
+        .search-icon-container {
+            img {
                 padding: 7px;
             }
         }

@@ -35,7 +35,7 @@ const SearchInput = ({ setPressed }) => {
                 
             >
                 <Option value="MC_number">MC</Option>
-                <Option value="DOT_number">DOT Number</Option>
+                <Option value="DOT_number">DN</Option>
                 <Option value="name">Name</Option>
             </Select>
             <div className="input">
