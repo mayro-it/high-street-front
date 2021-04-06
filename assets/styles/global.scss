@@ -13,12 +13,15 @@ $color: #264772;
     .ant-select {
         font-size: 30px;
         color: $color;
+        width: 110px;
+        border: unset !important;
         .ant-select-selector {
             height: 70px !important;
             align-items: center;
             border: unset !important;
             background-color: unset !important;
             width: 120px;
+            box-shadow:  unset !important;
         }
         .ant-select-selection-item {
             color: $color !important;
@@ -30,6 +33,7 @@ $color: #264772;
             color: $color;
         }
     }
+
     .search-icon-container {
         display: flex;
         align-items: center;
@@ -42,12 +46,14 @@ $color: #264772;
     }
     .input {
         display: flex;
-        width: 80%;
+        width: 70%;
         input {
             border: unset;
             font-weight: 600;
-            font-size: 12px;
+            font-size: 25px;
             background: unset;
+            width: 100%;
+            color: $color;
         }
     }
 }

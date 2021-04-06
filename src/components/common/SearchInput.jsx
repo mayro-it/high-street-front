@@ -32,7 +32,7 @@ const SearchInput = ({ setPressed }) => {
             <Select
                 onChange={handleSelect}
                 defaultValue={data.type}
-
+                
             >
                 <Option value="MC_number">MC</Option>
                 <Option value="DOT_number">DOT Number</Option>
